@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "lights-out-game"
+version = "0.0.1"
+license = "MIT"
+description = "Lights-out like game"
+authors = ["Shiri Nekono <gexira.halen.toms@gmail.com>"]
+maintainers = ["Shiri Nekono <gexira.halen.toms@gmail.com>"]
+readme = "README.md"
+homepage = "https://github.com/nekonoshiri/lights-out"
+repository = "https://github.com/nekonoshiri/lights-out"
+documentation = "https://github.com/nekonoshiri/lights-out"
+keywords = ["game"]
+classifiers = ["Topic :: Games/Entertainment :: Puzzle Games"]
+
+[tool.poetry.dependencies]
+python = "~3.9"
+pygame = "^2.0.1"
+
+[tool.poetry.dev-dependencies]
+black = "^21.8b0"
+flake8 = "^3.9.2"
+invoke = "^1.6.0"
+isort = "^5.9.3"
+mypy = "^0.910"
+pytest = "^6.2.5"
+
+[tool.poetry.scripts]
+lights_out_game = 'lights_out_game.main:main'
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
