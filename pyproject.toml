@@ -6,9 +6,9 @@ description = "Lights-out like game"
 authors = ["Shiri Nekono <gexira.halen.toms@gmail.com>"]
 maintainers = ["Shiri Nekono <gexira.halen.toms@gmail.com>"]
 readme = "README.md"
-homepage = "https://github.com/nekonoshiri/lights-out"
-repository = "https://github.com/nekonoshiri/lights-out"
-documentation = "https://github.com/nekonoshiri/lights-out"
+homepage = "https://github.com/nekonoshiri/lights-out-game"
+repository = "https://github.com/nekonoshiri/lights-out-game"
+documentation = "https://github.com/nekonoshiri/lights-out-game"
 keywords = ["game"]
 classifiers = ["Topic :: Games/Entertainment :: Puzzle Games"]
 
