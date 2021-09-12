@@ -6,12 +6,12 @@
 
 1. [Poetry](https://github.com/python-poetry/poetry) をインストール。
 2. `poetry install` で依存パッケージをインストール。
-3. `poetry run lights_out_game` でゲームを起動。
+3. `poetry run lights-out-game` でゲームを起動。
 
 ※ うまくいかない場合は以下の手順でも起動できます。
 
 1. `pip3 install .`
-2. `lights_out_game`
+2. `lights-out-game`
 
 ## 構成
 
